@@ -1,5 +1,6 @@
 import React from 'react';
 import { Linkedin, Twitter, Mail } from 'lucide-react';
+import Nikhil from '../../assets/team/Nikhil.jpg';
 import { AnimatedSection } from './AnimationProvider';
 
 interface TeamMemberProps {
@@ -60,7 +61,7 @@ const Team: React.FC = () => {
       name: "Nikhil",
       role: "COO & Co-founder",
       description: "Combines operational leadership with deep data science expertise to drive efficiency and intelligence across logistics and warehousing. Focused on building scalable systems through data-driven process optimization and informed decision-making.",
-      image: "/assets/team/Nikhil.jpg"
+      image: Nikhil
     }
   ];
 
