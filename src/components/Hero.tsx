@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Truck, Clock, BarChart3 } from 'lucide-react';
+import { Truck, Clock, BarChart3, Package } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const scrollToContact = () => {
@@ -62,7 +62,9 @@ const Hero: React.FC = () => {
               {[
                 { icon: <Truck className="h-6 w-6 text-primary-600" />, text: "Nationwide Coverage" },
                 { icon: <Clock className="h-6 w-6 text-primary-600" />, text: "Fast Delivery" },
-                { icon: <BarChart3 className="h-6 w-6 text-primary-600" />, text: "Real-time Tracking" }
+                { icon: <BarChart3 className="h-6 w-6 text-primary-600" />, text: "Real-time Tracking" },
+                { icon: <Package className="h-6 w-6 text-primary-600" />, text: "Smart Warehousing" }
+                // { icon: <ChartBar className="h-6 w-6 text-primary-600" />, text: "Analytics Platform" }
               ].map((item, index) => (
                 <div key={index} className="flex flex-col items-center text-center">
                   <div className="bg-white p-3 rounded-full shadow-md mb-2">
