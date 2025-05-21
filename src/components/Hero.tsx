@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.7 }}
-              className="mt-12 grid grid-cols-3 gap-4"
+              className="mt-12 grid grid-cols-4 gap-4"
             >
               {[
                 { icon: <Truck className="h-6 w-6 text-primary-600" />, text: "Nationwide Coverage" },
