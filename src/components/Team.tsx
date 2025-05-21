@@ -60,7 +60,7 @@ const Team: React.FC = () => {
       name: "Nikhil",
       role: "COO & Co-founder",
       description: "Combines operational leadership with deep data science expertise to drive efficiency and intelligence across logistics and warehousing. Focused on building scalable systems through data-driven process optimization and informed decision-making.",
-      image: "https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: "/assets/team/Nikhil.jpg"
     }
   ];
 
