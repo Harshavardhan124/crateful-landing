@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../../assets/logo.svg';
-import { Menu, X, Package2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Navbar: React.FC = () => {
@@ -45,10 +45,12 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            {/* <Package2 className="h-8 w-8 text-primary-600 mr-2" />
-            <span className="text-2xl font-bold text-primary-700">Crateful</span> */}
-            <img src={logo} alt="Crateful Logo" className="h-[3rem] w-[9rem] text-primary-600 mr-2" />
+          <div className="flex items-center shrink-0">
+            <img 
+              src={logo} 
+              alt="Crateful Logo" 
+              className="h-12 w-auto object-contain" 
+            />
           </div>
 
           {/* Desktop Navigation */}
