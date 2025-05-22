@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
             <img 
               src={logo} 
               alt="Crateful Logo" 
-              className="h-12 w-auto object-contain" 
+              className="h-19 w-auto object-contain" 
             />
           </div>
 
