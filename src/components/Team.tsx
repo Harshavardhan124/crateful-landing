@@ -1,6 +1,7 @@
 import React from 'react';
 import { Linkedin, Twitter, Mail } from 'lucide-react';
 import Nikhil from '../../assets/team/Nikhil.jpg';
+import Harsha from '../../assets/team/Harsha.png';
 import { AnimatedSection } from './AnimationProvider';
 
 interface TeamMemberProps {
@@ -55,7 +56,7 @@ const Team: React.FC = () => {
       name: "Harsha",
       role: "CBO & Co-founder",
       description: "Brings together business acumen and technology expertise to drive strategic growth in logistics and warehousing. Focused on forging partnerships and scaling tech-enabled solutions that solve real-world supply chain challenges.",
-      image: "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: Harsha
     },
     {
       name: "Nikhil",
